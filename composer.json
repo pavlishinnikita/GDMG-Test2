@@ -1,0 +1,13 @@
+{
+    "name": "GDMG-TEST Trainee",
+    "Description": "",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "classmap": []
+    },
+    "require": {
+
+    }
+}

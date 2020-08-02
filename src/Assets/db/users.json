@@ -1,0 +1,17 @@
+[
+    {
+        "name": "name1",
+        "password": "hashHere",
+        "passwordHash": "$2y$10$7McfhlufiTU2Ronyk3vrTuDA77RRvDLkdUgtna2CBe.N.ukp84Jo2"
+    },
+    {
+        "name": "name2",
+        "password": "hashHere2",
+        "passwordHash": "$2y$10$uCDyRGReytVkofFUBmy2G.m7Y4P1S0wuKDSTp8O3zh0mGxE3VWFtu"
+    },
+    {
+        "name": "name3",
+        "password": "newPass3",
+        "passwordHash": "$2y$10$fFln.XjpLnyunjeLchk\/LOwaby8KKzEw5iq9uK28c6djMMty47PeO"
+    }
+]

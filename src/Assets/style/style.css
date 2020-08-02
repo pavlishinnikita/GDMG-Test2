@@ -1,0 +1,104 @@
+/* ====== MAIN STYLES ======= */
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #FAFAFA;
+}
+
+main {
+    padding: 10px;
+}
+
+/* ====== HEADER STYLES ======= */
+.header {
+    position: fixed;
+    width: 100%;
+    background: royalblue;
+    height: 10vh;
+}
+
+/* ====== MENU STYLES ======= */
+nav {
+    height: inherit;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    list-style-type: none;
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+    background-color: #333;
+}
+
+.main-menu > li {
+    width: 20%;
+    margin: 0 0 0 10px;
+
+    font-size: 1.2em;
+    height: inherit;
+    transition: background 1s linear;
+    cursor: pointer;
+}
+
+.main-menu > li:hover {
+    background: #818181;
+    /* text-decoration: underline; */
+}
+
+.main-menu > li > a {
+    text-align: center;
+    display: block;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    padding-top: 4vh;
+}
+
+/* ====== CONTAINER STYLES ======= */
+
+.wrapper {
+    margin: 50px 10px 50px 10px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ====== FOOTER STYLES ======= */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    /* height: 50px; */
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+footer .text {
+    height: inherit;
+    padding-top: 4vh;
+}
+
+
+
+/* ====== BLOCK PAGE STYLES ======= */
+
+.hiddenInput {
+    display: none;
+    visibility: hidden;
+}
+
+/* ====== LOGIN PAGE STYLES ======= */
+.wrongInput {
+    border: 1px solid red;
+}
